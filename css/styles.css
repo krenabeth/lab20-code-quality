@@ -1,0 +1,38 @@
+.fancy {
+  font-family: Ariel, monospace;
+  margin: 10%;
+  padding: 5px;
+  border: 2px solid pink; }
+
+blockquote {
+  position: relative;
+  padding: 1.5em;
+  margin: 0 auto 1em;
+  width: 70%;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 2px solid black;
+  font: 1.5em "Bradley Hand";
+  line-height: 1.5em;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+button {
+  position: absolute;
+  top: 1em;
+  right: 15em;
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background-color: #ccc; }
+
+footer {
+  margin-top: 2em;
+  text-align: center; }
