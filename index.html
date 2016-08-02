@@ -11,20 +11,19 @@
 		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
 	</head>
 
-<body ng-app="myApp" >
+<body ng-app="myApp" ng-controller="myCtrl">
 
-	<ul ng-controller="myCtrl">
+	<ul>
 		<li ng-repeat="quote in quotes">{{ quote.poetry }} - {{ quote.poet }}</li>
 	</ul>
 
 
 
-<!-- 	<footer ng-controller="myCtrl">
+	<footer ng-controller="myCtrl">
 	
-
-		<blockquote class="ng-binding"> {{ quote.poetry }} ~ {{ quote.poet }}</blockquote>
+		<blockquote> {{ $scope.quotes[selection].poetry }} ~ {{ quotes[selection].poet }}</blockquote>
 		<button type="button" ng-click="getQuote()">New quote</button>
-	</footer> -->
+	</footer>
 
 	</body>
 

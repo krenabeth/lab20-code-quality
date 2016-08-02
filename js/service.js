@@ -1,10 +1,11 @@
 var app = angular.module("myApp");
 
 app.controller('myCtrl', function($scope) {
-		// $scope.quote = {};
-  //           $scope.getQuote = function() {
-  //               $scope.quote = quotes[Math.floor(Math.random()*quotes.length)];
-  //           };
+   $scope.getQuote = function() {
+     var selection = Math.floor(Math.random()*($scope.quotes.length));
+       console.log($scope.quotes[selection]);
+       $selection = $scope.quotes[selection];
+   };
 
   $scope.quotes = [
 	{
